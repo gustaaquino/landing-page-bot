@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(68.15deg, #23232f 16.62%, #52788e 85.61%);
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+}
+header > img {
+    width: 62px;
+    height: 62px;
+}
+header > nav > a{
+    padding: 32px;
+    color: lightgray;
+    font-size: 1.1em;
+}
+
+main{
+    border-top: 0.5px solid white;
+    margin-bottom: 50px;
+}
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#principal > div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: 'Sarala', sans-serif;
+}
+#principal > div > h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+}
+#principal > div > h2 {
+    font-size: 24px;
+    color: #e0dfdf;
+}
+#principal > div > button {
+    width: 190px;
+    height: 70px;
+    background: rgb(189, 189, 189);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+#principal > img {
+    height: 420px;
+}
+
+#secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+#secundario > h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 50px;
+}
