@@ -27,12 +27,11 @@ header > nav > a{
 
 main{
     border-top: 0.5px solid white;
-    margin-bottom: 50px;
 }
 #principal{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #principal > div{
     display: flex;
@@ -51,7 +50,7 @@ main{
 #principal > div > button {
     width: 190px;
     height: 70px;
-    background: rgb(189, 189, 189);
+    background-color: rgb(189, 189, 189);
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: none;
@@ -60,6 +59,11 @@ main{
 #principal > img {
     height: 420px;
 }
+#principal > div > button:hover{
+    background-color: rgb(241, 240, 240);
+    box-shadow: 6px 7px 6px rgba(0, 0, 0, 0.25);
+}
+
 
 #secundario{
     display: flex;
@@ -67,8 +71,32 @@ main{
     align-items: center;
     gap: 24px;
     margin-top: 50px;
+    margin-bottom: 200px;
 }
 #secundario > h3 {
     border-top: 0.4px solid #FFF2E7;
     padding-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#secundario > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    list-style-type: decimal;
+}
+
+footer {
+    padding: 28px;
+    border-top: 0.5px solid white;
+    background-color: black;
+    margin-top: 100px;
+}
+footer > a > img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
 }
