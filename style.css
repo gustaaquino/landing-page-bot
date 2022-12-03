@@ -120,6 +120,7 @@ footer > a > img {
     #principal > div > h1 {
         font-size: 60px;
         text-align: center;
+        padding-top: 50px;
     }
     #principal > div > h2 {
         font-size: 22px;
@@ -128,6 +129,9 @@ footer > a > img {
     #principal > div > button{
         display: block;
         margin: auto;
+    }
+    #principal > img {
+        height: 360px;
     }
 
     #secundario{
